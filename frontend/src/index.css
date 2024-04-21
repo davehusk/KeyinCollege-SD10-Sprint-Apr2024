@@ -1,0 +1,48 @@
+
+
+body:hover {
+  background-position: 100% 100%; /* Gradient animation on hover */
+}
+
+input, button, label {
+  margin-top: 10px;
+  background-color: #333; /* Dark gray background */
+  color: #f0f0f0; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding */
+  font-size: 16px; /* Font size */
+  font-family: 'Lexend Deca', sans-serif; /* Font family */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow */
+  transition: box-shadow 0.3s ease; /* Box shadow animation */
+}
+
+input:hover, button:hover, label:hover {
+  box-shadow: 0 4px 8px rgba(219, 210, 210, 0.3); /* Box shadow on hover */
+}
+
+h1, h2, h3 {
+  font-family: 'Lexend Deca', sans-serif; /* Font family */
+  color: #6d6565; /* White text */
+  text-shadow: 2px 2px 4px rgba(111, 100, 100, 0.5); /* Text shadow */
+}
+
+.text-raised {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+  font-family: 'Lexend Deca', sans-serif; /* Font family */
+  color: #fff; /* White text */
+}
+
+table {
+  border-collapse: collapse; /* Collapse table borders */
+  width: 100%; /* Full width */
+  margin: 20px 0; /* Margin */
+}
+
+th, td {
+  border: 1px solid #333; /* Border */
+  padding: 10px; /* Padding */
+  text-align: left; /* Left-align text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+}
+

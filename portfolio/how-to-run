@@ -1,0 +1,62 @@
+python manage.py migrate
+python manage.py runserver 5000
+
+# Dave Husk
+# Sprint for April 2024
+# Keyin College - SD10
+
+___
+For the Sprint I ran out of time trying to figure out why 
+I was getting so many errors and couldn't run it on my 
+machine. When I found the problem, it was because of the 
+commands used in terminal to install it. In 2024 React changed
+the way you start it up, according to sources online. 
+
+I really dislike the way React has to install itself locally, 
+there are too many areas for a problem to arise. I love Python
+so I wanted to use it as the backend.
+
+I am late for handing this in, and I don't have a Figma
+design for this either as I had to start over from scratch 
+Tuesday after my meeting with Keyin's upper management, Steve
+
+I requested the meeting, I prepared for over a week and I was
+so excited to show. When the meeting started and he was asking
+me questions as if he had no idea who I was, I asked about
+the extra I've been doing, but he had no idea where I was even
+living (Burin Peninsula). At the end of the call I pretty
+much had a mental breakdown, from 'officials' that supposedly
+have the power to help people, but no drive or willpower to 
+even give me a moment. The meeting I had with him was an 
+utter dissappointment, so I decided to make a quick CRUD app
+so I can make notes or save a contact in json, with plans to 
+make it an assistant with AI
+___
+
+## CRUD App
+
+
+There are two folders, 'backend' and 'frontend'. 
+
+### backend                         python main.py
+
+  - The backend uses Flask which is a 
+    Python application, to handle the JSON-Server side. 
+
+  - open terminal in the backend folder and run
+      ```
+      python main.py
+      ```
+A development server will run on your local pc to serve the
+database and json work on port 5000
+
+
+## frontend               python manage.py runserver 5000
+
+The frontend uses React and JavaScript with Vite, less
+time waiting on compiling, more time for coding. 
+
+```
+python manage.py migrate
+python manage.py runserver 5000
+```
